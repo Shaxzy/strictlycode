@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SqchSDK">
+      <UniqueIdentifier>{4d1fd552-bb04-45b8-ab22-9f64698c43d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SqchSDK\SDK">
+      <UniqueIdentifier>{d8b35ec6-5958-40b6-8b6d-04c1f41201d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SqchSDK\SDKHelper">
+      <UniqueIdentifier>{a01de081-076c-4a3f-b792-efa5d846235b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{4677264e-1a82-4e9f-bc6d-1ac489efaebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Manager">
+      <UniqueIdentifier>{3a25f469-e748-447b-b1f2-1ba6d7fe0da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hooks">
+      <UniqueIdentifier>{6af38249-e33c-4a8a-9194-ea4175a406c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{1e1cfb66-3977-453c-b986-572e5a8fbcbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Class">
+      <UniqueIdentifier>{58de5ebd-8dfb-47da-b13f-73c10fa2e2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\Manager">
+      <UniqueIdentifier>{4eec24fd-abdd-40c4-8858-4e8aff97a799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Hooks">
+      <UniqueIdentifier>{18a2b0b3-2786-4398-9d42-10430463bd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Utils">
+      <UniqueIdentifier>{a45d90b1-8c3a-482c-8f3b-0e739442ca9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Class">
+      <UniqueIdentifier>{dad15395-0232-469f-9e57-8716c591f968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{a6d00a6d-5b97-4f91-8e47-138c00cbc8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\DX9">
+      <UniqueIdentifier>{25885362-0e3d-4968-8cf8-835416f1f794}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SqchSDK\Interfaces.cpp">
+      <Filter>SqchSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\Offsets.cpp">
+      <Filter>SqchSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\Convar.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\CRC.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\SpoofedConVar.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\UtlString.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\Vector.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\VMatrix.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PT.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DME.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FSN.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CHLCM.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OView.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RView.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DM.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBulletsPostDataUpdate.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventListener2.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="rayGUI\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rayGUI\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rayGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>imgui\DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="CNotify.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CFixMove.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkinChanger.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnd.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoWall.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginFrame.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDKHelper\checksum_md5.cpp">
+      <Filter>SqchSDK\SDKHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnginePred.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CFakewalk.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CResolver.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CAntiaim.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SqchSDK\SDK\Vector2D.cpp">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="RunCommand.cpp">
+      <Filter>Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticles.cpp">
+      <Filter>Source\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SqchSDK\Interfaces.h">
+      <Filter>SqchSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\Offsets.h">
+      <Filter>SqchSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\AllDef.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CClientClass.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CGlowObjectManager.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CHandle.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CInput.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\Color.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\Convar.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CPrediction.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CRC.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CRecv.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CWeaponInfo.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IBaseClientDLL.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IClientEntity.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IClientEntityList.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IClientMode.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IClientNetworkable.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\ICollideable.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IConVar.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\ICvar.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IEngineTrace.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IGameMovement.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IGlobalVarsBase.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IHandleEntity.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IInput.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IMaterial.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IMaterialSystem.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IMDLCache.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IMoveHelper.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IPanel.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IPhysicsSurfaceProps.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\ISurface.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IVDebugOverlay.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IVEngineClient.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IVModelInfo.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IVModelRender.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IVRenderView.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\PlayerInfo.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\QAngle.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\SpoofedConVar.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\Studio.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\UtlMemory.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\UtlString.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\UtlVector.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\Vector.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\VMatrix.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDKHelper\Utilities.h">
+      <Filter>SqchSDK\SDKHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDKHelper\XorStr.h">
+      <Filter>SqchSDK\SDKHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="VTHooksManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PT.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityStructs.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DME.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FSN.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CHLCM.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\INetChannelInfo.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="OView.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CViewSetup.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="RView.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IViewRender.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CUtlVector.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\IStudioRender.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DM.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\Quaternion.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\SSEMATH.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\CTEFireBullets.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBulletsPostDataUpdate.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventManager.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rayGUI\DX9\imgui_impl_dx9.h">
+      <Filter>imgui\DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Quicksand.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CHurtListener.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CNotify.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CPurchaseListener.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="04b.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CFixMove.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MacProtect.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkinChanger.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientState.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnd.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoWall.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginFrame.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletListener.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRenderBeams.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSayListener.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDKHelper\checksum_md5.hpp">
+      <Filter>SqchSDK\SDKHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnginePred.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IMoveHelper.h">
+      <Filter>SqchSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CFakewalk.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CResolver.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CAntiaim.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CInterpFix.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="SqchSDK\SDK\Vector2D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="qsl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeathListener.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>Headers\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CFireListener.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticles.h">
+      <Filter>Headers\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="edition.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
